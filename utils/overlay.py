@@ -3,6 +3,8 @@ import tkinter as tk
 def create_overlay(game):
     # Initialize the root window
     root = tk.Tk()
+    root.attributes('-topmost', True)  # This line makes the window stay on top
+
     #root.geometry('120x80')  # Set this to your desired dimensions
     root.overrideredirect(True)  # This removes the title bar
 
@@ -13,6 +15,8 @@ def create_overlay(game):
     def update_stats():
         # Create the display text
         display_text = f"""
+        Status: {game.status}
+        \n
         Health: {game.health}
         Stage: {game.stage}
         Round: {game.round}

@@ -83,8 +83,8 @@ def get_shop():
     pass
 
 
-def process_image(image, model):
-    results = model([image], save=True)  # return a list of Results objects
+def process_image(model):
+    results = model([Image.open(f'screenshots/screen_{i+1}.png') for i in range(8)], save=True)  # return a list of Results objects
     return results
 
 

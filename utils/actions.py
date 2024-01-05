@@ -5,6 +5,16 @@ from PIL import ImageGrab
 
 class Game:
     def __init__(self):
+        self.status = "Initializing"
+        self.players = [{"Player1": 100},
+                        {"Player2": 100},
+                        {"Player3": 100},
+                        {"Player4": 100},
+                        {"Player5": 100},
+                        {"Player6": 100},
+                        {"Player7": 100},
+                        {"Player8": 100},
+                        ]
         self.health = 100
         self.stage = 1
         self.round = 1
