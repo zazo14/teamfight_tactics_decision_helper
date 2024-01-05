@@ -1,0 +1,7 @@
+2024-01-05 11:19:47 - logger.py - WARNING - This is a warning message
+2024-01-05 11:19:47 - logger.py - ERROR - This is an error message
+2024-01-05 11:19:47 - logger.py - CRITICAL - This is a critical message
+2024-01-05 11:20:46,561 - logger.py - WARNING - This is a warning message
+2024-01-05 11:20:46,562 - logger.py - ERROR - This is an error message
+2024-01-05 11:20:46,562 - logger.py - CRITICAL - This is a critical message
+2024-01-05 11:20:46,562 - logger.py - INFO - This is an info message

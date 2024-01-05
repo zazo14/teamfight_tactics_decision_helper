@@ -1,0 +1,34 @@
+{
+    "units": [
+        {
+            "name": "Unit1",
+            "properties": {
+                "trait1": 100,
+                "trait2": 50,
+                "item_score": 10,
+                "required_items": ["Item1", "Item2"],
+                "desired_items": ["item3", "item4"]
+            }
+        },
+        {
+            "name": "Unit2",
+            "properties": {
+                "trait1": 200,
+                "trait2": 40,
+                "item_score": 20,
+                "required_items": ["Item3", "Item4"],
+                "desired_items": ["item3", "item4"]
+            }
+        },
+        {
+            "name": "Unit3",
+            "properties": {
+                "trait1": 150,
+                "trait2": 60,
+                "item_score": 15,
+                "required_items": ["Item5", "Item6"],
+                "desired_items": ["item3", "item4"]
+            }
+        }
+    ]
+}

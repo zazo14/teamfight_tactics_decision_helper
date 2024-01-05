@@ -1,0 +1,34 @@
+{
+    "compositions": [
+        {
+            "name": "KDA",
+            "champions": [
+                {
+                    "name": "Ahri",
+                    "BIS_items": ["Luden's Echo", "Luden's Echo", "Luden's Echo"],
+                    "acceptable_items": ["Item4", "Item5"]
+                },
+                {
+                    "name": "Akali",
+                    "BIS_items": ["Item6", "Item7", "Item8"],
+                    "acceptable_items": ["Item9", "Item10"]
+                }
+            ]
+        },
+        {
+            "name": "Punk Reroll",
+            "champions": [
+                {
+                    "name": "Jinx",
+                    "BIS_items": ["Item11", "Item12", "Item13"],
+                    "acceptable_items": ["Item14", "Item15"]
+                },
+                {
+                    "name": "Pantheon",
+                    "BIS_items": ["Item16", "Item17", "Item18"],
+                    "acceptable_items": ["Item19", "Item20"]
+                }
+            ]
+        }
+    ]
+}
